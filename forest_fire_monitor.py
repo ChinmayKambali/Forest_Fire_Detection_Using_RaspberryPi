@@ -70,7 +70,7 @@ def main():
             print(f"Error occurred: {e}")
             time.sleep(2)  # Wait before trying again
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
